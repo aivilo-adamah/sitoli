@@ -2,9 +2,213 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>title</title>
+    <title>inscription sitoli </title>
+    <link rel="stylesheet" href="https://open-source.extive.eu/micro-interaction-theme.css">
+    
+    <style>
+    table{
+	border-radius: 20;
+	background-color:aquamarine;
+	padding: 30px;	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	-ms-border-radius: 20;
+	-o-border-radius: 20;
+	width: max-content;
+	border-left-color: blueviolet;
+	background:linear-gradient(to bottom,  #9932CC,#E9967A,#FF7F50 );
+	/*border-collapse: separate;*/
+    text-align: center;
+   /* border-style: dashed;*/
+}
+
+
+tr:hover td{
+    background-color:aqua;
+    color:burlywood;
+}
+
+
+tr td{
+    transition-duration:0.5s;
+}
+
+input:hover{
+    letter-spacing:0.5em;
+    font-weight: bolder;
+    color:white;
+    background-color: purple;
+    border:  0.2em solid white;
+}
+
+body{
+     background-color:blanchedalmond;
+     background-size: contain;
+     align-items: center;
+     justify-content: center;
+     height: 100px;
+     width: 500px;
+     padding-left: 15px;
+     margin-top: 15px;
+     flex-wrap: wrap;
+     border-radius: 10;
+     align-content: center;
+     -moz-border-radius: 10;
+     -ms-border-radius: 10;
+     -o-border-radius: 10;
+     margin-left: auto;
+     margin-top: 80px;
+     margin-bottom: auto;
+	 margin-right: auto;
+
+
+}
+
+a{
+    border: 3px;
+    background:radial-gradient(blueviolet);   
+}
+
+#clic{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+#tab{
+    border-radius: 20px;
+    background-color:aquamarine;
+    padding: 30px;
+    border-style: double;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: max-content;
+    border-left-color: blueviolet;
+    background:linear-gradient(to bottom,  #9932CC,#E9967A,#FF7F50 );
+    /*border-collapse: separate;*/
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+      
+    </style>
+    
   </head>
   <body>
     <h1>olivia site</h1>
+    <fieldset>
+		<table align="center">
+			<tr>
+				<td style="width:300px;">
+				<label> Nom d'utilisateur</label>
+				</td>
+				<td colspan="3">
+				<input type="text" style="width: 300px;" placeholder="Nom_utilisateur" size="30" maxlength="60">
+				</td>
+			</tr>
+			<tr>
+				
+				<td style="width:300px;">
+					<label> Nom </label>
+					</td>
+					<td colspan="3">
+					<input type="text" style="width: 300px;"placeholder="Nom" >
+					</td>
+			</tr>
+
+			<tr>
+				
+				<td style="width:300px;">
+					<label> Prenom </label>
+					</td>
+					<td colspan="3">
+					<input type="text" style="width: 300px;" placeholder="Prénoms">
+					</td>
+			</tr>
+
+			<tr>
+				
+				<td style="width:300px;">
+					<label> Age </label>
+					</td>
+					<td colspan="3">
+						
+					<input type="number" style="width: 300px;">
+				</label>
+					</td>
+			</tr>
+
+			<tr>
+				
+				<td style="width:300px;">
+					<label> ville </label>
+					</td>
+					<td colspan="3">
+					<input type="text" style="width: 300px;">
+					</td>
+			</tr>
+			<tr>
+				
+				<td style="width:100px;">
+					<label> dateNaiss</label>
+					</td>
+					<td colspan="3">
+					<input type="date" style="width:300px;"placeholder="dateNaiss">
+					</td>
+
+			</tr>
+			<tr>
+				<td>
+					<label>Mot de Passe</label>
+				</td>
+				<td colspan="3">
+					<input style="width: 300px;" type="password" minlength="8" size="10" required="required">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>votre classe</label>
+				</td>
+				<td colspan="3">
+					<select size="3" style="width: 200px;" >
+						<option>L1</option>
+						<option>L2</option>
+						<option>L3</option>
+					oli</select>
+				</td>
+			</tr>
+			
+				<td>
+					<label>votre Sexe</label>
+				</td>
+				<td colspan="3">
+					<i type="radio" name="sexe">M
+					<input type="radio" name="sexe">F
+				</td>
+				
+				</table>
+				</fieldset>
+						
+				<input type="submit" name="box" value="valider">
+				<input type="reset" name="box" value="retour">
+
+      <marquee>INSTITUT AFRICAIN D'INFORMATIQUE REPRESENTATION DU TOGO</marquee>   
+      <script src="https://open-source.extive.eu/micro-interaction.js'"></script>
+      <script src="" async defer></script>
+    
+    
   </body>
 </html>
